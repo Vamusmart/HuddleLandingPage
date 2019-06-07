@@ -10,7 +10,9 @@ body {
 
 h1 {
   font-family: "Poppins", sans-serif;
-  font-weight: 700;
+  font-weight: 900;
+  font-size: 2.4rem;
+  color: black;
 }
 
 h2 {
@@ -49,12 +51,15 @@ h2 {
   font-size: 16px;
   cursor: pointer;
 }
+
+.community {
+  padding: 5vh;
+}
 .paragraph-title-top,
 .paragraph-title-bottom {
   margin-top: 0vh;
   color: black;
   text-align: center;
-  padding: 5vh;
   padding-bottom: 0vh;
   padding-top: 8vh;
   font-size: 1.2rem;
@@ -123,7 +128,7 @@ p {
 }
 
 .communities {
-  height: 5vh;
+  height: 8vh;
   float: left;
   margin-top: 10vh;
 }
@@ -131,14 +136,15 @@ p {
 .big-number1 {
   font-size: 13vh;
   padding: 0vh;
-  margin-bottom: 0%;
+  margin-bottom: 1%;
 }
 
-.big-number2 {
+/* .big-number2 {
   font-weight: 600;
   font-size: 10vh;
   padding: 0vh;
-}
+  margin-bottom: 0%;
+} */
 
 .subtitles {
   margin-block-start: 0;
@@ -197,6 +203,7 @@ p {
   font-weight: 600;
   text-transform: uppercase;
   font-size: 2rem;
+  color:white;
 }
 
 .footer-main-paragraph {
@@ -213,8 +220,9 @@ p {
 }
 
 .input-email {
-  width: 100%;
-  height: 4vh;
+  width: 93.5%;
+  margin-left: 2vh;
+  height: 5.5vh;
   border: 1px;
   border-radius: 5px;
   -webkit-appearance: none;
@@ -266,6 +274,113 @@ ion-icon {
   margin-bottom: 5vh;
 }
 
+
+@media screen and (min-width: 680px) {
+  .head {
+    width: 80vh;
+  }
+  p {
+    color: orange;
+  }
+}
+
+@media screen and (min-width: 768px) {
+}
+
+@media screen and (min-width: 1024px) {
+  .head {
+    width: 100%;
+  }
+
+  p {
+    color: red;
+  }
+
+  .community {
+    margin-right: 15vw;
+    margin-left: 15vw;
+  }
+
+  .getStarted {
+    margin-top: 8vh;
+  }
+
+  .mockups {
+    width: 80%;
+    height: 100%;
+    margin-top: 10%;
+  }
+
+  .numbers {
+    display: flex;
+    padding: 10%;
+  }
+
+  .big-number1 {
+    font-size: 15vh;
+    padding: 0vh;
+    margin-bottom: 1%;
+  }
+
+  .messageSent {
+    margin-left: 20vw;
+  }
+
+  .pic-paragraph,
+  .pic-paragraph-white {
+    width: 50%;
+    height: 100%;
+    margin-top: -1vh;
+    margin-left: -1vh;
+    padding: 5vh;
+  }
+
+  .flexContainerDesktop {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  .flexContainerDesktopWhite {
+    display: flex;
+    flex-direction: row;
+  }
+  .paragraphs {
+    margin-top: -1vh;
+    margin-bottom: -1vh;
+  }
+
+  .flexContainerFooter {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  .footer-logo {
+    margin-top: 0vw;
+  }
+
+  .flexContainerFooterButton {
+    display: flex;
+    flex-direction: row;
+    padding: 2vh;
+  }
+  .input-email { 
+    margin-left: 0;
+    margin-top: -1vh;
+
+}
+
+@media screen and (min-width: 1200px) {
+  .head {
+    width: 100%;
+  }
+  p {
+    color: brown;
+  }
+
+  .numbers {
+    display: flex;
+    margin-left: 10%;
+  }
+}
 /* # Front-end Style Guide
 
 ## Layout
@@ -301,6 +416,12 @@ The designs were created to the following widths:
 ## Icons
 
 For the social icons, you can use a font icon library. Some suggestions can be found below:
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  
+
+@media screen and (min-width: 768px) and (max-width: 1022px) {
+  .header {
+      }
 
 - [Font Awesome](https://fontawesome.com/)
 - [IcoMoon](https://icomoon.io/)
