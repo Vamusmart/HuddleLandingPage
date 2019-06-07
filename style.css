@@ -157,10 +157,12 @@ p {
 .pic-paragraph,
 .paragraphs {
   background-color: #b2ebf2;
+  margin-bottom: -1vh;
 }
 
 .top {
   width: 100%;
+  margin-bottom: -1vh;
 }
 
 .top path {
@@ -180,10 +182,6 @@ p {
   margin-top: 20vh;
   background-color: #ffff;
 }
-
-/* .backgroundImage {
-  padding-top: 18vh;
-} */
 
 .backgroundImage2 {
   padding-bottom: 18vh;
@@ -220,7 +218,7 @@ p {
 }
 
 .input-email {
-  width: 93.5%;
+  width: 93%;
   margin-left: 2vh;
   height: 5.5vh;
   border: 1px;
@@ -373,7 +371,7 @@ ion-icon {
     width: 100%;
   }
   p {
-    color: brown;
+    color: blue;
   }
 
   .numbers {
