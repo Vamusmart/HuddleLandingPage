@@ -91,7 +91,7 @@ p {
   margin-right: 2vh;
   margin-left: 2vh;
   margin-bottom: -1vh;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
 }
 
 .paragraph-text {
@@ -133,18 +133,11 @@ p {
   margin-top: 10vh;
 }
 
-.big-number1 {
+.big-number {
   font-size: 13vh;
   padding: 0vh;
   margin-bottom: 1%;
 }
-
-/* .big-number2 {
-  font-weight: 600;
-  font-size: 10vh;
-  padding: 0vh;
-  margin-bottom: 0%;
-} */
 
 .subtitles {
   margin-block-start: 0;
@@ -187,6 +180,7 @@ p {
   padding-bottom: 18vh;
   background-color: #b2ebf2;
 }
+
 .footer {
   text-align: justify;
   padding-top: 15vh;
@@ -201,7 +195,7 @@ p {
   font-weight: 600;
   text-transform: uppercase;
   font-size: 2rem;
-  color:white;
+  color: white;
 }
 
 .footer-main-paragraph {
@@ -272,31 +266,82 @@ ion-icon {
   margin-bottom: 5vh;
 }
 
+.grey {
+  background-color: #ff52bf;
+  height: 20vh;
+  width: 20%;
+}
 
 @media screen and (min-width: 680px) {
   .head {
-    width: 80vh;
+    width: 140vh;
   }
-  p {
-    color: orange;
+
+  /*   p { color: green; }  */
+
+  .paragraph-text {
+    padding-bottom: 12vh;
+    padding-left: 15vh;
+    padding-right: 15vh;
+  }
+
+  .communities {
+    float: none;
+    margin-right: 22vh;
+  }
+
+  .big-number {
+    margin-top: 0;
+  }
+
+  .subtitles {
+    font-size: 3.5vh;
+  }
+
+  .pic-paragraph {
+    height: 70vh;
+    margin-bottom: -2vh;
+  }
+
+  .input-email {
+    width: 97%;
+  }
+
+  .mockups {
+    margin-top: 16vh;
+    height: 80vh;
+  }
+
+  .footer {
+    color: white;
   }
 }
 
 @media screen and (min-width: 768px) {
+  p {
+    font-size: 2rem;
+  }
+
+  .reach-me-text,
+  .footer-paragraph {
+    font-size: 2rem;
+  }
 }
 
 @media screen and (min-width: 1024px) {
   .head {
-    width: 100%;
+    width: 160vh;
   }
 
-  p {
-    color: red;
+  h1 {
+    font-size: 3rem;
   }
 
   .community {
-    margin-right: 15vw;
-    margin-left: 15vw;
+    margin-right: 18vw;
+    margin-left: 18vw;
+    font-weight: 500;
+    font-size: 3vh;
   }
 
   .getStarted {
@@ -311,22 +356,42 @@ ion-icon {
 
   .numbers {
     display: flex;
-    padding: 10%;
+    padding-left: 25vw;
   }
 
-  .big-number1 {
-    font-size: 15vh;
+  .big-number {
+    font-size: 8rem;
     padding: 0vh;
     margin-bottom: 1%;
   }
 
+  .subtitles {
+    font-size: 2.5vh;
+  }
+
   .messageSent {
-    margin-left: 20vw;
+    margin-left: 5vw;
+  }
+
+  .paragraph-title-middle {
+    padding: 5vh;
+    padding-bottom: 2vh;
+    padding-top: 8vh;
+    font-size: 3rem;
+    font-weight: 900;
+  }
+
+  .paragraph-text {
+    font-size: 2.2vh;
+    padding-bottom: 7vh;
+    padding-right: 4vw;
+    text-align: justify;
+    padding-left: 4vw;
   }
 
   .pic-paragraph,
   .pic-paragraph-white {
-    width: 50%;
+    width: 40%;
     height: 100%;
     margin-top: -1vh;
     margin-left: -1vh;
@@ -342,6 +407,7 @@ ion-icon {
     display: flex;
     flex-direction: row;
   }
+
   .paragraphs {
     margin-top: -1vh;
     margin-bottom: -1vh;
@@ -351,34 +417,68 @@ ion-icon {
     display: flex;
     flex-direction: row-reverse;
   }
+
   .footer-logo {
     margin-top: 0vw;
   }
 
-  .flexContainerFooterButton {
-    display: flex;
-    flex-direction: row;
-    padding: 2vh;
-  }
-  .input-email { 
-    margin-left: 0;
+  .input-email {
+    width: 93%;
     margin-top: -1vh;
+    height: 4.5vh;
+  }
 
+  .footer {
+    color: white;
+  }
+  .footer-button {
+    margin-right: 1vh;
+  }
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1240px) {
   .head {
     width: 100%;
   }
-  p {
-    color: blue;
+  .paragraph-text {
+    font-size: 3.5vh;
   }
 
-  .numbers {
-    display: flex;
-    margin-left: 10%;
+  .communities {
+    float: none;
+    margin-right: 40vh;
+  }
+
+  .subtitles {
+    font-size: 3.5vh;
+  }
+
+  .footer-button {
+    margin-right: 3.7vh;
+  }
+
+  .footer-main-paragraph {
+    margin-top: 2vh;
+    font-size: 1.5rem;
+    padding-right: 20vw;
+  }
+
+  .footer-paragraph {
+    font-size: 1.5rem;
+  }
+
+  .reach-me-text {
+    font-size: 1rem;
+  }
+
+  .input-email {
+    width: 93%;
+    margin-top: -1vh;
+    height: 6vh;
+    margin-bottom: -30vh;
   }
 }
+
 /* # Front-end Style Guide
 
 ## Layout
