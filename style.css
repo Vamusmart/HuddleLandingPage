@@ -452,7 +452,7 @@ ion-icon:hover {
     width: 100%;
   }
   .community {
-    padding: 5rem 28rem;
+    padding: 0rem 18rem;
   }
 
   .communities {
@@ -461,12 +461,14 @@ ion-icon:hover {
   }
 
   .paragraph-text {
-    font-size: 2.5rem;
-    padding-bottom: 2rem;
+    font-size: 2rem;
+    padding-right: 10rem;
+    padding-left: 10rem;
+    text-align: justify;
   }
 
   .paragraph-title-middle {
-    font-size: 5rem;
+    font-size: 3rem;
   }
 
   .subtitles {
@@ -481,7 +483,6 @@ ion-icon:hover {
   .footer-main-paragraph {
     margin-top: 1rem;
     font-size: 1.5rem;
-    padding-right: 10rem;
   }
 
   .footer-paragraph {
@@ -496,18 +497,21 @@ ion-icon:hover {
     width: 93%;
     margin-top: -0.3rem;
     height: 3rem;
-    margin-bottom: -10rem;
   }
   .button2 {
     padding: 0.5rem 4rem;
   }
 
   .flexContainerFooter h1 {
-    padding: 4rem 0;
+    padding-top: 5rem;
+  }
+
+  .footer-title {
+    margin-top: 3rem;
   }
 
   h1 {
-    padding: 4rem;
+    padding-top: 10.5rem;
   }
   .footer-paragraph {
     padding: 0;
@@ -516,6 +520,14 @@ ion-icon:hover {
     margin: 1.3rem;
     font-size: 1.3rem;
     padding: 2px 64px;
+  }
+
+  .paragraphs-white {
+    margin-top: 5rem;
+  }
+
+  .footer {
+    padding: 0 20rem;
   }
 }
 
