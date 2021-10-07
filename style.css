@@ -181,7 +181,7 @@ p {
 }
 
 .footer p {
-  font-size: 1.3rem;
+  font-size: 1rem;
 }
 
 .footer-title {
@@ -259,7 +259,7 @@ p {
 ion-icon {
   margin-top: 2.5rem;
   margin-left: 1rem;
-  font-size: 3rem;
+  font-size: 2rem;
   margin-bottom: 2.5rem;
 }
 
@@ -311,8 +311,8 @@ ion-icon:hover {
     width: 95%;
   }
 
-  .footer {
-    color: white;
+  .paragraph-title-middle {
+    margin-top: -1.8rem;
   }
 }
 
