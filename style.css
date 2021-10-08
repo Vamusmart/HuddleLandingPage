@@ -127,15 +127,16 @@ p {
 .big-number {
   font-size: 5rem;
   padding: 0;
-  margin-bottom: 1%;
+  margin: 0;
 }
 
 .subtitles {
   margin-block-start: 0;
   font-weight: 600;
   padding-top: 0;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   color: rgb(134, 124, 124);
+  margin-bottom: 3rem;
 }
 
 .paragraphs {
@@ -174,7 +175,7 @@ p {
 
 .footer {
   text-align: justify;
-  padding-top: 2rem;
+  padding: 1rem 1rem;
   margin-top: 0;
   background-color: #00252e;
   color: white;
@@ -182,25 +183,24 @@ p {
 
 .footer p {
   font-size: 1rem;
+  margin-left: 0;
 }
 
 .footer-title {
   margin-top: -0.1rem;
-  margin-left: 1rem;
   text-transform: uppercase;
   font-size: 2rem;
   color: white;
+  padding: 0;
 }
 
 .footer-main-paragraph {
   text-align: left;
   margin-top: 0;
-  margin-bottom: 4rem;
+  margin-bottom: 3.3rem;
 }
 .footer-paragraph {
   text-align: left;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
   font-size: 1.3rem;
   font-weight: 100;
 }
@@ -208,7 +208,6 @@ p {
 .input-email {
   width: 89%;
   align-items: center;
-  margin-left: 1rem;
   height: 2.4rem;
   border: 0;
   border-radius: 5px;
@@ -218,7 +217,6 @@ p {
 }
 
 .button3 {
-  margin-right: 1rem;
   font-weight: 400;
   font-family: "Open Sans", sans-serif;
   border-radius: 5px;
@@ -230,10 +228,10 @@ p {
   cursor: pointer;
   box-shadow: 5px 12px 38px -15px #d172ae;
 }
-.footer-button {
+/* .footer-button {
   text-align: right;
   margin-right: 0.1rem;
-}
+} */
 
 .footer-logo {
   margin-top: 10rem;
@@ -243,7 +241,6 @@ p {
 
 .reach-me-icons {
   margin-top: 0.3rem;
-  padding-left: 1rem;
   padding-right: 0.5rem;
   float: left;
 }
@@ -256,15 +253,14 @@ p {
   font-size: 1.2rem;
 }
 
+.icons {
+  text-align: center;
+}
 ion-icon {
   margin-top: 2.5rem;
   margin-left: 1rem;
   font-size: 2rem;
   margin-bottom: 2.5rem;
-}
-
-.icons {
-  text-align: center;
 }
 
 ion-icon:hover {
@@ -287,19 +283,20 @@ ion-icon:hover {
 
   .paragraph-text {
     padding: 0 6rem;
+    padding-bottom: 3rem;
   }
 
-  .communities {
+  /* .communities {
     float: none;
     margin-right: 21rem;
-  }
+  } */
 
   .big-number {
     margin-top: 0;
   }
 
   .subtitles {
-    font-size: 1rem;
+    font-size: 1.3rem;
   }
 
   .pic-paragraph {
@@ -308,17 +305,29 @@ ion-icon:hover {
   }
 
   .input-email {
-    width: 95%;
+    width: 92%;
   }
 
   .paragraph-title-middle {
     margin-top: -1.8rem;
   }
+
+  .flexContainerFooter {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  .footer-logo {
+    margin-top: 0;
+  }
+  .footer-title {
+    margin-top: 4rem;
+  }
 }
 
 @media all and (min-width: 768px) {
   p {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
 
   .reach-me-text,
@@ -327,11 +336,19 @@ ion-icon:hover {
   }
 
   .paragraph-title-middle {
-    font-size: 2.5rem;
+    font-size: 2.4rem;
   }
 
   h1 {
     font-size: 3.4rem;
+  }
+
+  .reach-me-icons {
+    margin-top: 0.3rem;
+  }
+
+  .footer-main-paragraph {
+    margin-bottom: 2.2rem;
   }
 }
 
@@ -368,7 +385,7 @@ ion-icon:hover {
   }
 
   .big-number {
-    font-size: 8rem;
+    font-size: 5.5rem;
     padding: 0;
     margin-bottom: 1%;
   }
@@ -385,12 +402,12 @@ ion-icon:hover {
     /* padding: 2.5rem;
     padding-bottom: 1rem; */
     padding: 1rem;
-    /* font-size: 3rem;
-    font-weight: 900; */
+    padding-top: 3rem;
+    font-size: 3rem;
   }
 
   .paragraph-text {
-    font-size: 1.5rem;
+    font-size: 1.6rem;
     /* padding-bottom: 2rem; */
     padding-right: 6rem;
     padding-left: 6rem;
@@ -422,13 +439,17 @@ ion-icon:hover {
     margin-bottom: -0.3rem;
   }
 
-  .flexContainerFooter {
+  /* .flexContainerFooter {
     display: flex;
     flex-direction: row-reverse;
+  } */
+
+  .footer-title {
+    margin-top: 4rem;
   }
 
-  .footer-logo {
-    margin-top: 0;
+  .footer p {
+    font-size: 1.1rem;
   }
 
   .input-email {
@@ -438,9 +459,9 @@ ion-icon:hover {
   .footer {
     color: white;
   }
-  .footer-button {
+  /* .footer-button {
     margin-right: 1rem;
-  }
+  } */
 
   .icons {
     text-align: left;
@@ -457,18 +478,18 @@ ion-icon:hover {
 
   .communities {
     float: none;
-    margin-right: 10rem;
+    height: 6rem;
   }
 
   .paragraph-text {
-    font-size: 2rem;
-    padding-right: 10rem;
-    padding-left: 10rem;
-    text-align: justify;
+    font-size: 1.8rem;
+    padding-right: 8rem;
+    padding-left: 8rem;
+    text-align: left;
   }
 
   .paragraph-title-middle {
-    font-size: 3rem;
+    font-size: 3.8rem;
   }
 
   .subtitles {
@@ -502,22 +523,22 @@ ion-icon:hover {
     padding: 0.5rem 4rem;
   }
 
-  .flexContainerFooter h1 {
-    padding-top: 5rem;
+  .big-number {
+    font-size: 9rem;
   }
 
   .footer-title {
-    margin-top: 3rem;
+    margin-top: 5rem;
   }
 
   h1 {
-    padding-top: 10.5rem;
+    font-size: 5rem;
+    padding-top: 3rem;
   }
   .footer-paragraph {
     padding: 0;
   }
   .button3 {
-    margin: 1.3rem;
     font-size: 1.3rem;
     padding: 2px 64px;
   }
@@ -527,7 +548,7 @@ ion-icon:hover {
   }
 
   .footer {
-    padding: 0 20rem;
+    padding: 0 16rem;
   }
 }
 
